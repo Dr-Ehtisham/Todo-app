@@ -18,6 +18,8 @@
 
 <main class="app">
 
+
+<!-- Greeting section ...      -->
 <section class="greeting">
     <h2 class="title">
 What's up, <input type="text" id="name" placeholder="Name here">
@@ -25,6 +27,7 @@ What's up, <input type="text" id="name" placeholder="Name here">
 </section>
 
 
+<!-- Create todo section ...  -->
 <section class="create-todo">
     <h3>CREATE A TODO</h3>
     <form id="new-todo-form">
@@ -68,14 +71,46 @@ What's up, <input type="text" id="name" placeholder="Name here">
 <!-- Submit todo  -->
 <input type="submit" value="Add todo">
 
-
-
-
-
-
-
-    </form>
+</form>
 </section>
+
+
+
+<section class="todo-list">
+    <h3>TODO LIST</h3>
+    <div class="list" id="todo-list">
+        <div class="todo-item">
+            <label>
+                <input type="checkbox">
+                <span class="bubble-business"></span>
+            </label>
+ <div class="content">
+    <input type="text" value="Make a video" readonly>
+ </div>        
+
+
+ <div class="actions">
+    <button class="edit">Edit</button>
+ </div>
+
+
+
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 </main>
