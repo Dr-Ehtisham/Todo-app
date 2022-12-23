@@ -119,7 +119,17 @@ input[type='checkbox'] {
     box-shadow: var(--business-glow);
 }
 
-
+.bubble-personal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid var(--business);
+    box-shadow: var(--personal-glow);
+    border-color: var(--personal); 
+}
 
 
 
