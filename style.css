@@ -108,7 +108,16 @@ input[type='checkbox'] {
 }
 
 
-
+.bubble-business{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid var(--business);
+    box-shadow: var(--business-glow);
+}
 
 
 
