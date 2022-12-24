@@ -217,11 +217,11 @@ input:checked ~ .bubble-personal::after{
     cursor: pointer;
 }
 
-.todo-item .content {
+.todo-item .todo-content {
     flex: 1 1 0%;
 }
 
-.todo-item .content input {
+.todo-item .todo-content input {
     color: var(--dark);
     font-size: 1.125rem;
 }
@@ -241,9 +241,8 @@ input:checked ~ .bubble-personal::after{
     transition: 0.2s ease-in-out;
 }
 
-.todo-item .actions .edit {
-    margin-right: 0.5rem;
-    background-color: var(--primary);
+.todo-item .actions button:hover{
+    opacity: 0.75;
 }
 
 
@@ -251,7 +250,23 @@ input:checked ~ .bubble-personal::after{
 
 
 
+.todo-item .actions .edit {
+    margin-right: 0.5rem;
+    background-color: var(--primary);
+}
 
+
+.todo-item .actions .delete {
+    margin-right: 0.5rem;
+    background-color: var(--danger);
+}
+
+
+
+.todo-item.done .todo-content input {
+    text-decoration: line-through;
+    color: var(--grey);
+}
 
 
 
